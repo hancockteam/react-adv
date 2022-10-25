@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { Suspense } from 'react';
 import {
@@ -10,6 +11,7 @@ import {
 import { routes } from './routes';
 
 import logo from '../logo.svg'
+
 
 
 export const Navigation = () => {
